@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f5fd"
+    tools:context=".modifiy_teacher">
+
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="150dp"
+        android:inputType="textPersonName"
+        android:text="First Name" />
+
+    <EditText
+        android:id="@+id/editTextt"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="220dp"
+        android:inputType="textPersonName"
+        android:text="Last Name" />
+
+    <TextView
+        android:id="@+id/textView99"
+        android:layout_width="4000dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="10dp"
+        android:textSize="20dp"
+        android:text="Please enter the name of subject of change:" />
+
+    <Button
+        android:id="@+id/chooser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="140dp"
+        android:background="#fafafa"
+        android:text="Choose" />
+</RelativeLayout>

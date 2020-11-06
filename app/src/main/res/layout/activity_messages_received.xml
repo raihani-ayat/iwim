@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f5fd"
+    tools:context=".messages_received">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardCornerRadius="10dp"
+        android:backgroundTint="#fafafa"
+        android:layout_marginTop="100dp"
+        >
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/harry_potter" />
+
+        <TextView
+            android:id="@+id/textView97"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="90dp"
+            android:text="Subject" />
+
+        <TextView
+            android:id="@+id/textView98"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="90dp"
+            android:text="12-12-20 01:25" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="10dp"
+            android:background="#fafafa"
+            android:text=">"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardCornerRadius="10dp"
+        android:backgroundTint="#fafafa"
+        android:layout_marginTop="210dp"
+        >
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/dwarf" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="90dp"
+            android:text="Subject" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="90dp"
+            android:text="12-12-20 01:25" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="10dp"
+            android:background="#fafafa"
+            android:text=">"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardCornerRadius="10dp"
+        android:backgroundTint="#fafafa"
+        android:layout_marginTop="320dp"
+        >
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/wise" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="90dp"
+            android:text="Subject" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="90dp"
+            android:text="12-12-20 01:25" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="10dp"
+            android:background="#fafafa"
+            android:text=">"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fafafa"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="150dp"
+        android:text="New Message" />
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "508777826440",
+    "firebase_url": "https://iwim-93883.firebaseio.com",
+    "project_id": "iwim-93883",
+    "storage_bucket": "iwim-93883.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508777826440:android:2d0fbb13817754a429773d",
+        "android_client_info": {
+          "package_name": "com.example.iwim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508777826440-sei1kpmcs3l1s41vv32tt7mi90d8tq5r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-ip3V_YEIcgNGIxDsAZHyc0tgO8z9Zng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508777826440-sei1kpmcs3l1s41vv32tt7mi90d8tq5r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

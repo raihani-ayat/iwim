@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#f1f5fd"
+    android:layout_height="match_parent"
+    tools:context=".Subscribe">
+
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="@string/prompt_email"
+        android:layout_marginTop="140dp"
+        android:layout_marginStart="50dp"/>
+
+    <EditText
+        android:id="@+id/editText13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="@string/prompt_password"
+        android:inputType="textPassword"
+        android:layout_marginTop="220dp"
+        android:layout_marginStart="50dp"/>
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fafafa"
+        android:layout_marginTop="340dp"
+        android:layout_marginStart="150dp"
+        android:text="Subscribe" />
+</RelativeLayout>

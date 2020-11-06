@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f5fd"
+    tools:context=".Attendance_chef">
+
+
+    <TextView
+        android:id="@+id/textView69"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attendance"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"/>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="80dp"
+
+        />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="130dp"
+
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:backgroundTint="#f6f6f6"
+        android:layout_marginTop="280dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardCornerRadius="10dp">
+
+        <TextView
+            android:id="@+id/textView79"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:background="#f7eefb"
+            android:text="Subject" />
+
+        <TextView
+            android:id="@+id/textView80"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="40dp"
+            android:background="#f7eefb"
+            android:text="Student's name" />
+
+        <TextView
+            android:id="@+id/textView90"
+            android:layout_width="170dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="70dp"
+            android:background="#f7eefb"
+            android:text="Total number of classes" />
+
+        <TextView
+            android:id="@+id/textView91"
+            android:layout_width="170dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="100dp"
+            android:background="#f7eefb"
+            android:text="Number of classes missed" />
+
+        <TextView
+            android:id="@+id/textView92"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="130dp"
+            android:background="#f7eefb"
+            android:text="Pourcentage" />
+
+        <TextView
+            android:id="@+id/editText2"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:ems="10"
+            android:inputType="number"
+            android:text="20"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="180dp"/>
+
+        <TextView
+            android:id="@+id/editText3"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:ems="10"
+            android:inputType="number"
+            android:text="2"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="180dp"/>
+        <TextView
+            android:id="@+id/editText4"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:ems="10"
+            android:inputType="number"
+            android:text="10%"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="90dp"/>
+
+        <TextView
+            android:id="@+id/sub_name"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/std_2"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="110dp"
+            android:text="Full Name" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/choose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="150dp"
+        android:text="Choose" />
+
+
+
+</RelativeLayout>

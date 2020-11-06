@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f5fd"
+    tools:context=".attendance_teacher">
+
+
+    <TextView
+        android:id="@+id/textView93"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attendance"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Full Name" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:backgroundTint="#f6f6f6"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="180dp">
+
+        <TextView
+            android:id="@+id/textView94"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:background="#f7eefb"
+            android:text="Class" />
+        <TextView
+            android:id="@+id/textView95"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="50dp"
+            android:textSize="20dp"
+            android:background="#f7eefb"
+            android:text="Pourcentage" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="90dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+             />
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="140dp"
+            android:ems="10"
+            android:layout_marginTop="50dp"
+            android:inputType="textPersonName"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="250dp"
+        android:text="Confirm" />
+
+</RelativeLayout>

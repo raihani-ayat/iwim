@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f5fd"
+    tools:context=".schedule">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="#f6f6f6"
+        android:layout_marginTop="70dp"
+
+        >
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Monday"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/t_s4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="10dp"
+            android:text="Subject"
+            android:background="#ffc0cb"/>
+
+        <TextView
+            android:id="@+id/m_t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="130dp"
+            android:text="Tutor"
+            android:background="#ffd4db"/>
+
+        <TextView
+            android:id="@+id/m_r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="50dp"
+            android:background="#ffe7eb"
+            android:text="Room n°" />
+
+        <TextView
+            android:id="@+id/m_s2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="10dp"
+            android:text="Subject"
+            android:background="#ffeac4"/>
+
+        <TextView
+            android:id="@+id/m_t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="190dp"
+            android:text="Tutor"
+            android:background="#fff1d8"/>
+
+        <TextView
+            android:id="@+id/m_r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="50dp"
+            android:background="#fff8eb"
+            android:text="Room n°" />
+
+        <TextView
+            android:id="@+id/m_s3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="10dp"
+            android:text="Subject"
+            android:background="#c8f5f3"/>
+
+        <TextView
+            android:id="@+id/m_t3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="260dp"
+            android:text="Tutor"
+            android:background="#d9f8f6"/>
+
+        <TextView
+            android:id="@+id/m_r3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="50dp"
+            android:background="#e9fbfa"
+            android:text="Room n°" />
+
+        <TextView
+            android:id="@+id/t_s4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="10dp"
+            android:text="Subject"
+            android:background="#e0c6f7"/>
+
+        <TextView
+            android:id="@+id/m_t4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="340dp"
+            android:text="Tutor"
+            android:background="#e9d8fa"/>
+
+        <TextView
+            android:id="@+id/m_r4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="50dp"
+            android:background="#f3e9fc"
+            android:text="Room n°" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:backgroundTint="#ececec"
+        android:layout_marginTop="160dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+
+        >
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Tuesday"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/t_s1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="10dp"
+            android:text="Subject"
+            android:background="#ffc0cb"/>
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="130dp"
+            android:text="Tutor"
+            android:background="#ffd4db"/>
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="50dp"
+            android:background="#ffe7eb"
+            android:text="Room n°" />
+
+        <TextView
+            android:id="@+id/m_s2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="10dp"
+            android:text="Subject"
+            android:background="#ffeac4"/>
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="190dp"
+            android:text="Tutor"
+            android:background="#fff1d8"/>
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="50dp"
+            android:background="#fff8eb"
+            android:text="Room n°" />
+
+        <TextView
+            android:id="@+id/m_s3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="10dp"
+            android:text="Subject"
+            android:background="#c8f5f3"/>
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="260dp"
+            android:text="Tutor"
+            android:background="#d9f8f6"/>
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="50dp"
+            android:background="#e9fbfa"
+            android:text="Room n°" />
+
+        <TextView
+            android:id="@+id/t_s4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="10dp"
+            android:text="Subject"
+            android:background="#e0c6f7"/>
+
+        <TextView
+            android:id="@+id/textView57"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="340dp"
+            android:text="Tutor"
+            android:background="#e9d8fa"/>
+
+        <TextView
+            android:id="@+id/textView58"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="50dp"
+            android:background="#f3e9fc"
+            android:text="Room n°" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:backgroundTint="#e2e2e2"
+        android:layout_marginTop="250dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+
+        >
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Wednesday"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="10dp"
+            android:text="Subject"
+            android:background="#ffc0cb"/>
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="130dp"
+            android:text="Tutor"
+            android:background="#ffd4db"/>
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="50dp"
+            android:background="#ffe7eb"
+            android:text="Room n°" />
+
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="10dp"
+            android:text="Subject"
+            android:background="#ffeac4"/>
+
+        <TextView
+            android:id="@+id/textView61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="190dp"
+            android:text="Tutor"
+            android:background="#fff1d8"/>
+
+        <TextView
+            android:id="@+id/textView62"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="50dp"
+            android:background="#fff8eb"
+            android:text="Room n°" />
+        <TextView
+            android:id="@+id/textView63"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="10dp"
+            android:text="Subject"
+            android:background="#c8f5f3"/>
+
+        <TextView
+            android:id="@+id/textView64"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="260dp"
+            android:text="Tutor"
+            android:background="#d9f8f6"/>
+
+        <TextView
+            android:id="@+id/textView65"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="50dp"
+            android:background="#e9fbfa"
+            android:text="Room n°" />
+
+        <TextView
+            android:id="@+id/textView66"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="10dp"
+            android:text="Subject"
+            android:background="#e0c6f7"/>
+
+        <TextView
+            android:id="@+id/textView67"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="340dp"
+            android:text="Tutor"
+            android:background="#e9d8fa"/>
+
+        <TextView
+            android:id="@+id/textView68"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="50dp"
+            android:background="#f3e9fc"
+            android:text="Room n°" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:backgroundTint="#d8d8d8"
+        android:layout_marginTop="340dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+
+        >
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Thursday"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="10dp"
+            android:text="Subject"
+            android:background="#ffc0cb"/>
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="130dp"
+            android:text="Tutor"
+            android:background="#ffd4db"/>
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="50dp"
+            android:background="#ffe7eb"
+            android:text="Room n°" />
+        <TextView
+            android:id="@+id/textView70"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="10dp"
+            android:text="Subject"
+            android:background="#ffeac4"/>
+
+        <TextView
+            android:id="@+id/textView71"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="190dp"
+            android:text="Tutor"
+            android:background="#fff1d8"/>
+
+        <TextView
+            android:id="@+id/textView72"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="50dp"
+            android:background="#fff8eb"
+            android:text="Room n°" />
+
+        <TextView
+            android:id="@+id/textView73"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="10dp"
+            android:text="Subject"
+            android:background="#c8f5f3"/>
+
+        <TextView
+            android:id="@+id/textView74"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="260dp"
+            android:text="Tutor"
+            android:background="#d9f8f6"/>
+
+        <TextView
+            android:id="@+id/textView75"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="50dp"
+            android:background="#e9fbfa"
+            android:text="Room n°" />
+
+        <TextView
+            android:id="@+id/textView76"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="10dp"
+            android:text="Subject"
+            android:background="#e0c6f7"/>
+
+        <TextView
+            android:id="@+id/textView77"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="340dp"
+            android:text="Tutor"
+            android:background="#e9d8fa"/>
+
+        <TextView
+            android:id="@+id/textView78"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="50dp"
+            android:background="#f3e9fc"
+            android:text="Room n°" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:backgroundTint="#cecece"
+        android:layout_marginTop="430dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+
+        >
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Friday"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="10dp"
+            android:text="Subject"
+            android:background="#ffc0cb"/>
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="130dp"
+            android:text="Tutor"
+            android:background="#ffd4db"/>
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="50dp"
+            android:background="#ffe7eb"
+            android:text="Room n°" />
+
+        <TextView
+            android:id="@+id/textView80"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="10dp"
+            android:text="Subject"
+            android:background="#ffeac4"/>
+
+        <TextView
+            android:id="@+id/textView81"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="190dp"
+            android:text="Tutor"
+            android:background="#fff1d8"/>
+
+        <TextView
+            android:id="@+id/textView82"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="50dp"
+            android:background="#fff8eb"
+            android:text="Room n°" />
+
+        <TextView
+            android:id="@+id/textView83"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="10dp"
+            android:text="Subject"
+            android:background="#c8f5f3"/>
+
+        <TextView
+            android:id="@+id/textView84"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="260dp"
+            android:text="Tutor"
+            android:background="#d9f8f6"/>
+
+        <TextView
+            android:id="@+id/textView85"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="50dp"
+            android:background="#e9fbfa"
+            android:text="Room n°" />
+
+        <TextView
+            android:id="@+id/textView86"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="10dp"
+            android:text="Subject"
+            android:background="#e0c6f7"/>
+
+        <TextView
+            android:id="@+id/textView87"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="340dp"
+            android:text="Tutor"
+            android:background="#e9d8fa"/>
+
+        <TextView
+            android:id="@+id/textView88"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="50dp"
+            android:background="#f3e9fc"
+            android:text="Room n°" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#f1f5fd"
+
+        >
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8h-10h"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10h-12h"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14h-16h"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16h-18h"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

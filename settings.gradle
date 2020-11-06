@@ -1,0 +1,2 @@
+rootProject.name='IWIM'
+include ':app'

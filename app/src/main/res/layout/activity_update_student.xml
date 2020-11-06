@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".update_student">
+
+
+    <TextView
+        android:id="@+id/textView14"
+        android:text="Apply change"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="#949494"
+        android:textStyle="normal"
+        />
+
+    <EditText
+        android:id="@+id/stdname"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="100dp"
+
+        android:hint="@string/prompt_email"
+        android:text="name"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/stdlastname"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="100dp"
+
+        android:hint="@string/prompt_email"
+        android:text="last name"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/stdemail"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="100dp"
+
+        android:hint="@string/prompt_email"
+        android:text="email"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/stdnumtel"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="100dp"
+
+        android:hint="@string/prompt_email"
+        android:text="telephone number"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/stdclass"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="100dp"
+
+        android:hint="@string/prompt_email"
+        android:text="Class"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/add2"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="64dp"
+        android:background="#fafafa"
+        app:layout_constraintCircleRadius="10dp"
+        android:enabled="true"
+        android:text="Update"
+        android:textColor="#949494"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp"
+        android:layout_marginStart="120dp"
+        android:visibility="invisible"/>
+
+
+</RelativeLayout>
